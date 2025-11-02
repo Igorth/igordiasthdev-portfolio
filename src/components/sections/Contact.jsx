@@ -11,17 +11,17 @@ export const Contact = () => {
         <div className="px-4 text-center max-w-2xl mx-auto">
           {" "}
           {/* wider box */}
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-emerald-500 to-cyan-400 bg-clip-text text-transparent">
             Get in Touch
           </h2>
           {/* Contact Box */}
           <div className="bg-white/5 border border-white/20 rounded-2xl p-10 text-white shadow-lg backdrop-blur-sm">
             <div className="flex flex-col items-center space-y-6">
               <div className="flex items-center space-x-3 text-lg sm:text-xl">
-                <Mail className="text-blue-400 w-6 h-6" />
+                <Mail className="text-emerald-400 w-6 h-6" />
                 <a
                   href="mailto:igordiasth@gmail.com"
-                  className="hover:text-blue-400 transition font-medium"
+                  className="hover:text-emerald-400 transition font-medium"
                 >
                   igordiasth@gmail.com
                 </a>
@@ -32,7 +32,7 @@ export const Contact = () => {
                   href="https://www.linkedin.com/in/igordiasth"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition"
+                  className="hover:text-emerald-400 transition"
                 >
                   <Linkedin size={30} />
                 </a>
@@ -40,7 +40,7 @@ export const Contact = () => {
                   href="https://github.com/Igorth"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition"
+                  className="hover:text-emerald-400 transition"
                 >
                   <Github size={30} />
                 </a>
